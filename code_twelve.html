@@ -8,14 +8,14 @@
     <body>
         <div class="mb-3">
             <label for="name">Name</label>
-            <input type="text" value="Miss Mary" id="name" class="form-control">
-            <br>
+            <input type="text" class="form-control" id="name" >
+
             <label for="age">Age</label>
-            <input type="radio" value="18" name="agetypes" id="age"> under 18
-            <input type="radio" value="18+" name="agetypes" id="age"> 18 and above
+            <input type="radio" value="18" name="agetypes" id="age" class="form-selecter"> under 18
+            <input type="radio" value="18+" name="agetypes" id="age" class="form-selecter"> 18 and above
             <br>
             <label id="faculty">Faculty</label>
-            <select id="faculty">
+            <select id="faculty" class="form-select">
                 <option>
                     Agriculture
                 </option>
@@ -48,7 +48,7 @@
             <br>
 
         <label for="reason">Reason for application</label><br>
-        <textarea id="reason">Type your reason</textarea><br>
+        <textarea id="reason" class="form-control"></textarea><br>
         <button type="submit">Submit</button>
 
 
