@@ -29,3 +29,46 @@ body{
     text-align: center;
     line-height: 30px;
 }
+
+.articlecontainer{
+    display: flex;
+    padding: 20px;
+}
+
+ .article{
+    flex-grow: 5;
+    margin: auto;
+    width: 70%;
+    
+}
+
+ .resource{
+    flex-grow: 1;
+    margin: auto;
+    width:30%;
+    text-align: center;
+
+}
+
+
+
+        .articletitle {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .content {
+            text-align: justify;
+            line-height: 1.5;
+        }
+
+        #poem {
+            font-style: italic;
+            margin: 20px 0 5px 0;
+        }
+
+        #artist {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
