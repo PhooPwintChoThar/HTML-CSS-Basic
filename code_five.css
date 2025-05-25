@@ -43,6 +43,13 @@ body{
     
 }
 
+.article:active{
+    font-style: italic;
+}
+
+a:visited{
+    color:rgb(236, 115, 2);
+}
  .resource{
     flex-grow: 1;
     margin: auto;
@@ -57,6 +64,10 @@ body{
 }
 
 
+.resource:hover{
+    background: palevioletred;
+    font-style: italic;
+}
 
 .articletitle {
     font-weight: bold;
@@ -77,4 +88,12 @@ body{
 #artist {
     font-weight: bold;
     margin-bottom: 20px;
+}
+
+.body .articlecontainer:first-child{
+    background:pink;
+}
+
+.articlecontainer > * :last-child{
+    background: rgb(224, 224, 103);
 }
