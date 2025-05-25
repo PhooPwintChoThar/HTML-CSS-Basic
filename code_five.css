@@ -37,38 +37,44 @@ body{
 
  .article{
     flex-grow: 5;
-    margin: auto;
-    width: 70%;
+    margin-right: 50px;
+    margin-left: 20PX;
+    width: 80%;
     
 }
 
  .resource{
     flex-grow: 1;
     margin: auto;
-    width:30%;
-    text-align: center;
+    width:17%;
+    text-align: left;
+    height: 100px;
+    border-radius: 40px;
+    background-color: rgb(2, 189, 236);
+    box-sizing: border-box;
+    padding-left: 20px;
 
 }
 
 
 
-        .articletitle {
-            font-weight: bold;
-            font-size: 1.2em;
-            margin-bottom: 10px;
-        }
+.articletitle {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
 
-        .content {
-            text-align: justify;
-            line-height: 1.5;
-        }
+.content {
+    text-align: justify;
+    line-height: 1.5;
+}
 
-        #poem {
-            font-style: italic;
-            margin: 20px 0 5px 0;
-        }
+#poem {
+    font-style: italic;
+    margin: 20px 0 5px 0;
+}
 
-        #artist {
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
+#artist {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
