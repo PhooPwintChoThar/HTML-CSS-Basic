@@ -1,9 +1,13 @@
+body{
+    background: url(https://tse4.mm.bing.net/th?id=OIP.IDq8cZVcGfgwgkR1Bt0RywHaEo&pid=Api&P=0&h=220);
+}
+
 #box1{
     width:600px;
     height:400px;
     margin:100px auto;
     background: cyan;
-    position: relative;
+    position:relative;
 }
 
 #box2{
